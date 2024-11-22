@@ -1,0 +1,108 @@
+body {
+    background-color: #dfeae8;
+    margin: 0px;
+}
+
+img {
+    width: 18%;
+}
+
+/* nav */
+
+nav li {
+    list-style-type: none;
+}
+
+nav a:hover {
+    color: #5a4427;
+}
+
+/* grenal_Color */
+
+.Grenal_Color {
+    color: #2dc69d;
+}
+
+/* introduction */
+
+.introduction {
+    text-align: center;
+    color: #2dc69d;
+}
+
+.introduction h1 {
+    font-family: "Ephesis", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 75px;
+}
+
+.introduction p {
+    font-family: sans-serif;
+    font-size: 175%;
+    font-weight: 400px;
+}
+
+/* navbar */
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+#navbar ul {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*  center chiều dọc */
+}
+
+/* introduction content */
+
+#introduction-content {
+    text-align: center;
+}
+
+#introduction-content p {
+    width: 30%;
+    margin: auto;
+}
+
+/* hr */
+
+hr {
+    border-width: 10px;
+    border-style: dotted none none;
+    width: 38px;
+    color: #2dc69d;
+}
+
+/* ability */
+
+#ability {
+    margin: 0 20%;
+    text-align: center;
+}
+
+#ability>div {
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+}
+
+#ability img{
+    width: 80%;
+}
+
+#ability .item {
+    flex: 1;
+}
+
+/* footer */
+
+footer{
+    background-color: palegreen;
+    padding: 2rem 0;
+    text-align: center;
+}
